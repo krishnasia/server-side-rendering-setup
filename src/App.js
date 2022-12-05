@@ -1,7 +1,7 @@
 import React from 'react'
-
+import './App.css';
 export const App = () => {
   return (
-    <div>Webpack with client side and server side...</div>
+    <div id = "bgcolor">Webpack with client side and server side...css</div>
   )
 }
