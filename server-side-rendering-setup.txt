@@ -1,0 +1,49 @@
+step 1: npm init    in vscode terminal and fill the required fields.
+step 2: npm i react react-dom -need to install in terminal
+step 3: create new file for .gitignore and restrict unwanted file  and folders and add below things
+
+------------------START---------------------------
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+/dist
+/public
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+-------------------END-----------------------------
+
+
+step 4: npm i --save -D webpack webpack-cli webpack-dev-server in vscode terminal - for local running and servers
+
+step 5: npm i -D @babel/core @babel/preset-env @babel/preset-react babel-loader in vscode terminal and create .babelrc file and add below things
+
+-----------START-----------------------------------
+{
+    "presets": [
+        "@babel/preset-react",
+        "@babel/preset-env"
+    ]
+}
+
+-------------END---------------------------------------
+
+step 6: npm i -D html-webpack-plugin in vscode terminal
